@@ -74,7 +74,8 @@ def complete_task():
             tasks[index]["done"] = True
             completed_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             tasks[index]["completed_at"] = completed_time
-            print(f"✅ Task marked as done at {completed_time}")
+     print(f"Task successfully completed at {completed_time}.")
+
         else:
             print("⚠️ Invalid task number.")
     except ValueError:
