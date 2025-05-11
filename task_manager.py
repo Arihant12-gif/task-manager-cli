@@ -45,7 +45,8 @@ def delete_task():
 
 def menu():
     while True:
-        print("\n==== Task Manager [Delete Branch] ====")
+print("\n==== Task Manager [Delete + Complete Branch] ====")
+
 
         print("1. Add Task\n2. View Tasks\n3. Complete Task\n4. Delete Task\n5. Exit")
         choice = input("Choose an option (1-5): ").strip()
